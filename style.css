@@ -1,0 +1,517 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+/********************************* * ! Style rules for defult section **********************************/
+ *{
+     margin: 0;
+     padding: 0;
+     list-style: none;
+     text-decoration: none;
+     text-transform: capitalize;
+}
+/********************************* * ! Style rules for common componant section **********************************/
+ .btn{
+     color: #FFF;
+     font-size: 14px;
+     font-family: Roboto;
+     font-style: normal;
+     font-weight: 700;
+     line-height: 18px;
+     letter-spacing: 1.96px;
+     text-transform: uppercase;
+     border-radius: 44px;
+     background: #3D5675;
+     width: 228px;
+     height: 56px;
+     border: none;
+     flex-shrink: 0;
+}
+ body{
+     font-family: 'Roboto', sans-serif;
+     background: #EEE;
+}
+ .container{
+     width: 1200px;
+     margin: auto;
+}
+ .sub-container{
+     width: 1100px;
+     margin:46px auto;
+}
+ h2{
+     color: #011F3A;
+     font-family: Roboto;
+     font-size: 32px;
+     font-style: normal;
+     font-weight: 700;
+     line-height: 41px;
+}
+ h3{
+     color: #011F3A;
+     font-family: Roboto;
+     font-size: 32px;
+     font-style: normal;
+     font-weight: 400;
+     line-height: normal;
+}
+ h5{
+     color: #011F3A;
+     font-family: Roboto;
+     font-size: 18px;
+     font-style: normal;
+     font-weight: 400;
+     line-height: normal;
+     letter-spacing: 0.36px;
+}
+ p{
+     color: #A1A1A1;
+     font-family: Roboto;
+     font-size: 15px;
+     font-style: normal;
+     font-weight: 400;
+     line-height: 19px;
+     letter-spacing: 0.6px;
+}
+ .card-btn{
+     width: 247px;
+     height: 44px;
+     border-radius: 44px;
+     background: #3D5675;
+     color: #FFF;
+     text-align: center;
+     font-family: Roboto;
+     font-size: 14px;
+     font-style: normal;
+     font-weight: 700;
+     line-height: 18px;
+     letter-spacing: 1.96px;
+     text-transform: uppercase;
+     border: none;
+}
+/********************************* * ! Style rules for navber section **********************************/
+ nav{
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     margin: 19px 24px;
+}
+ nav ul {
+     display: flex;
+     align-items: center;
+     margin-left: 80px;
+}
+ nav ul li{
+     margin: 0 25px;
+}
+ nav ul li a{
+     color: #011F3A;
+     font-size: 14px;
+     font-family: Roboto;
+     font-style: normal;
+     font-weight: 400;
+     line-height: 18px;
+     letter-spacing: 1.96px;
+     text-transform: uppercase;
+}
+ .nav-icon{
+     display: flex;
+     align-items: center;
+     gap: 13px;
+}
+ .nav-icon a{
+     color: #011F3A;
+     font-size: 14px;
+     font-family: Roboto;
+     font-style: normal;
+     font-weight: 400;
+     line-height: 18px;
+     letter-spacing: 1.96px;
+     text-transform: uppercase;
+}
+ .all-p{
+     margin-left: 46px;
+}
+ .cart{
+     display: flex;
+     align-items: center;
+     gap: 25px;
+}
+ .cart a{
+     color: #011F3A;
+     font-size: 14px;
+     font-family: Roboto;
+     font-style: normal;
+     font-weight: 400;
+     line-height: 18px;
+     letter-spacing: 1.96px;
+     text-transform: uppercase;
+}
+/********************************* * ! Style rules for.. hero section **********************************/
+ .hero{
+     background: #F2AE4D;
+     padding-bottom: 100px;
+}
+ h1{
+     color: #011F3A;
+     font-size: 48px;
+     font-family: Roboto;
+     font-style: normal;
+     font-weight: 400;
+     line-height: normal;
+}
+ .hero-parent{
+     display: flex;
+     justify-content: space-between;
+}
+ .hero-tittle{
+     margin:200px 0 0 120px ;
+}
+ .hero-tittle p{
+     color: #011F3A;
+     font-size: 15px;
+     font-family: Roboto;
+     font-style: normal;
+     font-weight: 400;
+     line-height: 24px;
+     margin: 50px 0 30px 0;
+}
+ .hero-parent img{
+     margin-top: 100px;
+}
+/********************************* * ! Style rules for.. simple card section **********************************/
+ .simple-sec{
+     background: #FFF;
+}
+ .simple-card-parent{
+     display: flex;
+     justify-content: space-between;
+     padding: 20px 0;
+}
+ .s-card{
+     display: flex;
+     align-items: center;
+     gap: 16px;
+}
+/********************************* * ! Style rules for.. card section **********************************/
+ .card-parent{
+     display: grid;
+     grid-template-columns: repeat(3,1fr);
+     margin: 64px 0 56px 0;
+}
+ .card-tittle{
+     display: flex;
+     justify-content: space-between;
+     margin-top: 57px;
+}
+ .card{
+     border: 1px solid #EDEDED;
+     background: #FFF;
+     width: 400px;
+     height: 432px;
+}
+ .p-tittle{
+     display: flex;
+     justify-content: space-between;
+}
+ .p-tittle p{
+     margin: 8px 24px 8px 24px;
+     color: #777;
+     font-family: Roboto;
+     font-size: 15px;
+     font-style: normal;
+     font-weight: 400;
+     line-height: 24px;
+}
+ .card h5{
+     margin: 24px 0 0 24px;
+}
+ .last-tittle{
+     display: flex;
+     justify-content: center;
+     gap: 16px;
+     align-items: center;
+     margin: 130px 0 158px 0;
+}
+ .last-tittle p{
+     color: #A1A1A1;
+     font-family: Roboto;
+     font-size: 15px;
+     font-style: normal;
+     font-weight: 700;
+     line-height: 24px;
+}
+ .last-btn{
+     width: 158px;
+     height: 44px;
+     flex-shrink: 0;
+     border-radius: 44px;
+     background: #FFF;
+     border: 1px solid #fff;
+     color: #3D5675;
+     font-family: Roboto;
+     font-size: 14px;
+     font-style: normal;
+     font-weight: 700;
+     line-height: 18px;
+     letter-spacing: 1.96px;
+     text-transform: uppercase;
+}
+/********************************* * ! Style rules for..love section **********************************/
+ .love-sec{
+     padding: 88px 0;
+     background: #72BDA3;
+     box-shadow: 0px 14px 44px 0px rgba(143, 143, 143, 0.25);
+     margin-bottom: 88px;
+}
+ .love-sec h3{
+     text-align: center;
+}
+ .love-card-parent{
+     display: flex;
+     justify-content: space-between;
+}
+ .love-card h5{
+     color: #011F3A;
+     text-align: center;
+     font-family: Roboto;
+     font-size: 18px;
+     font-style: normal;
+     font-weight: 400;
+     line-height: 23px;
+     letter-spacing: 0.36px;
+}
+ .love-card p{
+     color: #3D5675;
+     text-align: center;
+     font-family: Roboto;
+     font-size: 15px;
+     font-style: normal;
+     font-weight: 400;
+     line-height: 24px;
+}
+ .love-btn{
+     margin: 150px 0 0 490px;
+}
+ .love-card{
+     width: 300px;
+     height: 300px;
+     flex-shrink: 0;
+     margin:0 50px 0 50px;
+}
+/********************************* * ! Style rules for.. arka section **********************************/
+ .arka-sec{
+     margin-bottom: 140px;
+}
+ .arka-crad{
+     margin-top: 82px;
+}
+ .arka-card h5{
+     margin-top: 54px;
+}
+/********************************* * ! Style rules for.. yellow section **********************************/
+ .yellow{
+     margin-bottom: 148px;
+     background: #FFCA3A;
+     box-shadow: 0px 14px 44px 0px rgba(143, 143, 143, 0.25);
+}
+ .yellow-parent{
+     display: flex;
+     justify-content: space-between;
+}
+ .yellow-card h4{
+     color: #011F3A;
+     text-align: center;
+     font-family: Roboto;
+     font-size: 24px;
+     font-style: normal;
+     font-weight: 700;
+     line-height: 36px;
+     margin:24px 0 14px 0 ;
+}
+ .yellow-card{
+     text-align: center;
+     width: 360px;
+     height: 386px;
+     flex-shrink: 0;
+     flex-shrink: 0;
+     flex-shrink: 0;
+     margin: 110px 120px 113px 120px;
+}
+ .yellow-btn{
+     border-radius: 44px;
+     background: #FFF;
+     width: 204px;
+     height: 44px;
+     flex-shrink: 0;
+     border: none;
+     margin-top: 10px;
+}
+/********************************* * ! Style rules for.. icon section **********************************/
+ .icon-logo{
+     display: flex;
+     justify-content: space-between;
+}
+ .icon-rating{
+     display: flex;
+     align-items: center;
+     gap: 2px;
+     justify-content: center;
+     margin-top: 20px;
+}
+ .icon-rating h6{
+     color: #011F3A;
+     font-family: Roboto;
+     font-size: 18px;
+     font-style: normal;
+     font-weight: 400;
+     line-height: normal;
+     letter-spacing: 0.36px;
+}
+ .icon{
+     margin: 110px 190px;
+}
+ .arka{
+     text-align: center;
+}
+/********************************* * ! Style rules for..marchants section **********************************/
+ .arka-bg{
+     margin-top: 59px;
+     background: #FFF;
+     box-shadow: 0px 14px 44px 0px rgba(143, 143, 143, 0.25);
+}
+ .flex-1{
+     display: flex;
+}
+ .flex-1-tittle h5{
+     color: #011F3A;
+     font-family: Lato;
+     font-size: 24px;
+     font-style: normal;
+     font-weight: 400;
+     line-height: 31.92px;
+}
+ .img-tittle h6{
+     color: #011F3A;
+     font-family: Lato;
+     font-size: 18px;
+     font-style: normal;
+     font-weight: 400;
+     line-height: normal;
+}
+ .img-tittle p{
+     color: #A1A1A1;
+     font-family: Lato;
+     font-size: 15px;
+     font-style: normal;
+     font-weight: 400;
+     line-height: 24px;
+}
+ .flex-img{
+     display: flex;
+     gap: 20px;
+     margin-top: 12px;
+     align-items: center;
+}
+ .img-3{
+     margin-left: 106px;
+}
+ .flex-2{
+     margin: 55px 0;
+}
+ .flex-btn{
+     border-radius: 44px;
+     background: #F2F2F2;
+     width: 160px;
+     height: 44px;
+     flex-shrink: 0;
+     color: #3D5675;
+     font-family: Roboto;
+     font-size: 14px;
+     font-style: normal;
+     font-weight: 400;
+     line-height: 18px;
+     letter-spacing: 1.96px;
+     text-transform: uppercase;
+     border: 1px solid #F2F2F2 ;
+}
+ .flex-1-tittle{
+     margin-left: 106px;
+}
+ .lets-h2{
+     text-align: center;
+     margin: 120px 0 55px 0;
+}
+ .lets-btn{
+     text-align: center;
+     margin-bottom: 137px;
+}
+ .card-btn2{
+     border-radius: 44px;
+     background: #FFF;
+     width: 247px;
+     height: 44px;
+     flex-shrink: 0;
+     color: #3D5675;
+     font-family: Roboto;
+     font-size: 14px;
+     font-style: normal;
+     font-weight: 700;
+     line-height: 18px;
+     letter-spacing: 1.96px;
+     text-transform: uppercase;
+     border: none;
+     margin-left: 11px;
+}
+/********************************* * ! Style rules for.. footer section **********************************/
+ footer{
+     background: #F2F3F4;
+}
+ .footer-parent{
+     display: flex;
+     justify-content: space-between;
+     padding-top: 48px;
+}
+ .privecy{
+     display: flex;
+}
+ .apps{
+     margin-top: 17px;
+}
+ .footer-card a{
+     color: #3D5675;
+     font-family: Roboto;
+     font-size: 15px;
+     font-style: normal;
+     font-weight: 400;
+     line-height: normal;
+}
+ .footer-card ul{
+     margin:60px 0 77px 0;
+}
+ .footer-card ul li{
+     margin: 13px 0;
+}
+ input{
+     width: 280px;
+     height: 36px;
+     flex-shrink: 0;
+     border-radius: 34px;
+     background: #FFF;
+     padding: 0 18px;
+     border: none;
+     margin-bottom: 12px;
+}
+ .footer-btn{
+     width: 187px;
+     height: 44px;
+     display: grid;
+     place-content: center;
+     border-radius: 44px;
+     background: #3D5675;
+     color: #FFF;
+     text-align: center;
+     font-family: Roboto;
+     font-size: 18px;
+     font-style: normal;
+     font-weight: 700;
+     line-height: normal;
+}
+ 
